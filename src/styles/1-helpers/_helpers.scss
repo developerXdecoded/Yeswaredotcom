@@ -1,0 +1,19 @@
+.clear{
+  clear: both;
+  zoom:1
+}
+.clear:before, .clear:after{
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+// .content-wrapper{
+//   background: white;
+//   // position: relative;
+// }
+// .float-l{
+//   float: left;
+// }
+// .clear{
+//   clear: both;
+// }
