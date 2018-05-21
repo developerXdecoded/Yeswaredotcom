@@ -218,3 +218,32 @@ section:nth-of-type(odd) {
 .feature:nth-child(even) .col-7{
   right: 2.7%;
 }
+
+.customers{
+  padding-bottom: 104px;
+
+  .h2{
+    text-align: center;
+    margin-top: 104px;
+    font-size: 52px;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  li{
+    display: inline-block;
+    padding: 30px 15px;
+    img{
+      width: 138px;
+      height: 27px;
+    }
+  }
+}
+.col-12{
+  width:100%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 1px;
+}
